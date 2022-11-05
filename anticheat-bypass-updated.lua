@@ -171,4 +171,7 @@ out'Walkspeed & Jumppower bypass started.\n'
 hookfunction((gcinfo or collectgarbage), function(...) -- Hook gcinfo or collectgarbage
    return math.random(200,350) -- Always return a legit looking value
 end)
-print("Anticheat Universal Bypass Working")
+--synapse iris compatibility script v2
+loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterCompat.lua"))()
+--if executed correctly this is the notification in console
+print("Anticheat Universal Bypass & IRIS COMPATIBILITY Working")
